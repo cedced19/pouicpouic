@@ -1,14 +1,14 @@
 {
   "name": "pouicpouic",
   "version": "0.0.0",
-  "description": "A software to learn your lesson",
+  "description": "A webcam system to watch my chickens.",
   "keywords": [
     "cli",
-    "center",
-    "learn",
-    "memory",
+    "web",
+    "cam",
+    "webcam",
     "app",
-    "school"
+    "chickens"
   ],
   "repository": {
     "type": "git",
