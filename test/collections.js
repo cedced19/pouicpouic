@@ -24,7 +24,6 @@ suite('Test models', function () {
     setup(function (done) {
         waterline.loadCollection(require('../models/users.js'));
         waterline.loadCollection(require('../models/registrants.js'));
-        waterline.loadCollection(require('../models/lessons.js'));
         waterline.initialize(config, function  (err, ontology) {
             if (err) {
                 return done(err);
