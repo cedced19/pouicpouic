@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/cedced19/learn-memory"
+    "url": "git://github.com/cedced19/pouicpouic"
   },
   "bugs": {
-    "url": "https://github.com/cedced19/learn-memory/issues"
+    "url": "https://github.com/cedced19/pouicpouic/issues"
   },
-  "homepage": "https://github.com/cedced19/learn-memory",
+  "homepage": "https://github.com/cedced19/pouicpouic",
   "scripts": {
     "start": "node ./bin/pouicpouic",
     "dev": "node ./build/dev",
