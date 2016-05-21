@@ -4,6 +4,8 @@ A webcam system to watch my chickens.
 [![Build Status](https://travis-ci.org/cedced19/pouicpouic.svg?branch=master)](https://travis-ci.org/cedced19/pouicpouic)
 [![NPM version](https://badge.fury.io/js/pouicpouic.svg)](http://badge.fury.io/js/pouicpouic)
 
+You need v4l2 to use this software: [installation](http://www.techytalk.info/webcam-settings-control-ubuntu-fedora-linux-operating-system-cli/).
+
 ## CLI
 
 ```bash
