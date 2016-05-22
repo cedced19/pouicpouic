@@ -49,7 +49,7 @@ app.run(['$rootScope', '$location', '$http', 'notie', function ($rootScope, $loc
             logout: function () {
               $http.get('/logout').success(function () {
                 $rootScope.user = false;
-                $location.path('/');
+                $location.path('/login');
               });
             }
         };

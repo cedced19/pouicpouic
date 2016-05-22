@@ -3,6 +3,7 @@ var router = express.Router();
 var pkg = require('../package.json');
 var checkUpdate = require('check-update');
 var auth = require('../policies/auth.js');
+var semver = require('semver');
 
 /* GET Version */
 router.get('/', auth, function(req, res, next) {
