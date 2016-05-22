@@ -8,9 +8,14 @@ var auth = require('../policies/auth.js');
 router.get('/', auth, function(req, res, next) {
     checkUpdate({packageName: pkg.name}, function(err, latestVersion){
       if(err) return next(err);
+      var update = false;
+      if (semver.lt(pkg.version, latestVersion)) {
+        update = true;
+      }
       res.json({
           local: pkg.version,
-          github: latestVersion,
+          last: latestVersion,
+          update: update,
           url: pkg.homepage + '/releases/latest'
       });
     });
